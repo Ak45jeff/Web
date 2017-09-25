@@ -1,0 +1,17 @@
+<html>
+<body>
+<?php
+
+if ($_POST['name']== "akena" && $_POST['pwd']== "Ak45jamila")
+{
+  
+    header('Location: index.php');
+}
+   else
+{
+    echo 'You entered username or password is incorrect';
+}
+ 
+?>
+</body>
+</html>

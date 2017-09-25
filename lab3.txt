@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<?php
+echo file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=Uganda&appid=515abb303894cd450c706f324149fcdf");
+?>
+</body>
+</html>
